@@ -2,5 +2,5 @@ require 'prime'
 
 def prime?(prime)
 Prime.prime?(4)
-else true
+else return true
 end
