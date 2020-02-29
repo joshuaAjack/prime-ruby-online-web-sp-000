@@ -1,6 +1,6 @@
 require 'prime'
 
 def prime?(prime)
-  prime.prime?(2)
-  prime.prime?(1)
+Prime.prime?(2)  
+Prime.prime?(4)
 end
