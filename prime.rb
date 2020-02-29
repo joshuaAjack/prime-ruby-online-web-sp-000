@@ -1,6 +1,6 @@
-require 'prime'
 
- def prime?(num)
-        (2..Math.sqrt(num)).each { |i| return false if num % 1 == 0}
-        true
-    end
+def prime(n)
+  return false if n < 2
+
+  (2..n/2).none?{|i| n % i == 0}
+end
